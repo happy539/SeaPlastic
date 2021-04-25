@@ -1,0 +1,487 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title> Resources </title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      body {}
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: 5px;
+}
+.para{
+  line-height:2; 
+}
+.coursesPage{
+  margin-left:90px; 
+}
+.signUp {
+  padding-left:500px;  
+}
+.signUp button{
+  padding: 15px 24px; 
+  background-color:lavender ;
+  border:lavenderBlush ;
+  color:black;
+  cursor:pointer; 
+  float:left; 
+}
+.signUp button:hover{
+  background-color:lavenderBlush;
+  border: lavender;
+}
+.fa{
+  padding:20px; 
+  font-size: 30px; 
+  width: 50px; 
+  text-align: center; 
+  text-decoration:none; 
+
+}
+.fa:hover{
+  opacity: 0.7; 
+}
+.fa -facebook{
+  background-color:#3B5998; 
+  color:white; 
+}
+.fa -instagram{
+  background-color:#f09433; 
+  color:white; 
+} 
+.fa -pinterest{
+  background-color: #cb2027; 
+  color: white; 
+}    
+#mySidenav{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  }
+button
+    {
+      background-color: lightCoral; 
+      border:none; 
+      color:white;
+      padding: 15px 32px; 
+      text-align: center; 
+      text-decoration:none; 
+      display: inline-block; 
+      font-size: 16px; 
+    }
+    .button:hover {
+      background-color: linen; 
+      color: black;
+    }
+.selection{
+      padding-left:150px; 
+      box-sizing: none;
+}
+.socialMedia{
+  padding-left: 110px; 
+}
+.paragraphs{
+  margin-right:150px; 
+}
+ 
+</style> 
+  </head>
+<body> 
+  <div id ="mySidenav" class= "sidenav"> 
+      <a href ="index.html" id="home"> Home </a>
+      <a href ="service.html" id="courses">Services</a>
+      <a href ="resource.html"id="De-stress">Resource</a>
+      <a href ="fun.html" id="fun">Fun </a>
+      <a href ="community.html" id="community">Community </a>
+    </div> 
+  <h1 style="text-align:center;font-family:poppins;"> Plastic is in the <em>OCEAN</em> </h1>
+  <br>
+  <p style ="padding-left:50px;padding-right:50px;color:gray;"class="para"> You are in the right place! Woohoo! We are more than happy to share the journey with you. Are you ready to become your best version? Classes here are customisable so that it matches your values and goals. Together we can crash those goals. This semester, you will work to develop your writing, reading, vocabulary and critical thinking skills. You
+will also learn and practice the fundamentals of grammar and mechanics.The skills you learn here will
+help you succeed both in and out of class. However, your education is ultimately YOUR responsibility.
+YOU determine your level of success. Successful college students are self-motivated.<em> YOU CAN DO IT and we are here to help.</em> </p> 
+<br>
+<div class ="coursesPage"> 
+<div  style="max-width:1100px">
+  <img src="image/work7.jpg"class ="course1" align='left' alt="About Us" width="300" height="200" style="margin:10px 150px;">
+  
+  <h2 style ="padding-left: 150px;"> What's plastic in the Ocean?</h1>
+  <p style="padding-right:50px;color:gray;"class="para"> Much of the plastic in the ocean is in the form of abandoned fishing nets. The first thing that comes to mind for many people when they think of microplastics are the small beads found in some soaps and other personal care products. But microplastics also include bits of what were once larger items. </p>
+  
+  <style>
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Sign Up</h1>
+
+    <label for="username"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="username" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit" class="btn">Sign Up</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+  </div>
+<br><br><br>
+<hr>
+<br><br>
+<div>
+  <div class="paragraphs">
+  <img src="image/work11.jpg" align='right' alt="Thorcise" width="300" height="200">
+</div>
+<h2 style="padding-left:150px;"> How it's impacting us?</h2>
+<p style="padding-right:350px; padding-left:150px;color:gray;" class="para">Over a few decades, humans have managed to dump tons upon tons of garbage into the ocean. Of the most devastating elements of this pollution is that plastics takes thousands of years to decay. As a result, fish and wildlife are becoming intoxicated. Consequently the toxins from the plastics have entered the food chain, threatening human health. In the most polluted places in the ocean, the mass of plastic exceeds the amount of plankton six times over. This is a large piece of evidence that leaves the problem of polluted oceans undeniable. It is upsetting that more of clean up effort is not taking place.</p> 
+</div>
+<br><br><br>
+<hr>
+<br><br>
+<img src="image/work8.jpg"class ="course1" align='left' alt="The Rock" width="300" height="200" style="margin:10px 150px;">
+  <h2 style ="padding-left: 150px;">What you can do?</h1>
+  <br>
+  <p style="padding-right:50px;color:gray;"class="para">
+    <li> Reduce the amount of plastic you use. </li>
+    <br>
+      <li>Recycle properly. </li>
+      <br>
+      <li> <em>Participate in a beach or river cleanup</em> </li>
+      <br>
+      <li>Support Bans.</li>
+      <br>
+      <li>Avoid products that includes microplastic.</li>
+      <br>
+    
+<p style="padding-left:320px;"> Click Sign up if you like to organize a clean-up near your area!</p>
+<br>
+  <div class ="signUp">
+  <button id="signup"class="open-form" onclick ="openForm()"> Sign Up</button>
+  </div>
+<br><br><br><br>
+<hr>
+<br><br>
+<!--Slideshow--> 
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="alignment">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="image/slideshow1.jpg" style="width:100%;align:center; ">
+    <div class="text">We need young people like you!</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="image/slideshow2.jpg" style="width:100%">
+    <div class="text">This is SERIOUS!</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="image/slideshow3.jpg" style="width:100%;align:center;">
+    <div class="text">Don't forget that this affects us (human beings) too.</div>
+  </div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+<style> 
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto; 
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+</style> 
+<script>
+
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+ </script>
+ <br><br>
+ <hr>
+ <br><br>
+ <form action="action_page.php">
+  <div class="news">
+    <h2>Subscribe to our Newsletter!</h2>
+    <br>
+    <p style="color:gray; "> Subscribe to our newsletter for any updates on the clean-up or just some articles related to plastic in the ocean. </p>
+  </div>
+  <div class="news" style="background-color:white;">
+    <div class="news-section"> 
+    <input type="text" placeholder="Name" class="Name" name="name" required>
+    <br/>
+    <br/> 
+    <br/>
+    <input type="email" class="Email"placeholder="Email address" name="mail" required>
+    </div> 
+    <br>
+    <label>
+    <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+    </label>
+  </div>
+  <div class="news">
+    <input id ="submit-button" type="submit" value="Subscribe">
+  </div>
+</form>
+<br><br>
+<hr>
+<div class="footer">
+<br><br>
+          <!--Social media buttons--> 
+          
+          <div class = "social-menu">
+            <h1 style="text-align: center;">Other places to find us!</h1> 
+            <ul> 
+              <li><a href=""><i class="fa fa-facebook"></i></a></li>
+    <li><a href=""><i class="fa fa-twitter"></i></a></li>
+    <li><a href=""><i class="fa fa-instagram"></i></a></li>
+    <li><a href=""><i class="fa fa-youtube"></i></a></li>
+    <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+    </ul> 
+              </div>
+            
+            <br><br><br><br><br> <br> <br>
+            <style> 
+  footer{
+  background-color: none;
+}
+.social-menu ul {
+    position: absolute;
+    top: 430%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.social-menu ul li .fa {
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+}
+.social-menu ul li .fa:hover {
+    color: #ffffff;
+}
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #55acee;
+}
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #e4405f;
+}
+.social-menu ul li:nth-child(4) a:hover {
+    background-color: #cd201f;
+}
+.social-menu ul li:nth-child(5) a:hover {
+    background-color: #0077B5;
+}
+</style> 
+</body>
+</html> 

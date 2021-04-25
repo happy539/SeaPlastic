@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Services</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"> 
+
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<style> 
+.welcome-text {
+		width: 100%;
+		height: auto;
+    text-align:center; 
+	}
+  .welcome-text h1 {
+		font-size: 60px;
+	}
+  .welcome-text h1 span {
+	color: #00fecb;
+}
+.com h1 span{
+  color:#00fecb;
+}
+.wrapper h3 span{
+  color:#00fecb;
+}
+body{
+  background-image:url(image/ocean3.jpg);
+  -webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	position: relative;
+}
+.paragraph{
+  margin-left:170px; 
+  margin-right: 50px; 
+}
+.message
+     {
+       width: 600px; 
+      border: 2px solid white;
+      padding: 15px 10px; 
+      margin: 0 auto;       
+      }
+      .message h2
+      {
+        text-align: none; 
+        margin-bottom: 15px; 
+      }
+      input[type=submit], button
+      {
+        padding: 10px 15px;
+        border:none; 
+        outline:none; 
+        border-radius: 5px; 
+        text-transform: uppercase;
+        font-weight: bold; 
+        cursor: pointer; 
+        
+      }
+      input[type=submit]
+      {
+        color: #fff; 
+        background-color: #273c75;
+      }
+      button 
+      {
+        color: #333; 
+        background-color: transparent; 
+      }
+      button
+    {
+      background-color: lightCoral; 
+      border:none; 
+      color:white;
+      padding: 15px 32px; 
+      text-align: center; 
+      text-decoration:none; 
+      display: inline-block; 
+      font-size: 16px; 
+    }
+    .button:hover {
+      background-color: linen; 
+      color: black;
+    }
+.selection{
+      padding-left:150px; 
+      box-sizing: none;
+}
+</style> 
+<body>
+  <div id ="mySidenav" class= "sidenav"> 
+      <a href ="index.html" id="home"> Home </a>
+      <a href ="service.html" id="courses">Service</a>
+      <a href ="resource.html"id="De-stress">Resources</a>
+      <a href ="fun.html" id="fun">Fun </a>
+      <a href ="community.html" id="community">Community </a>
+    </div> 
+<div class="welcome-text">
+  <h1 style="align:center;font-family:poppins;color:white;"> SERV<span>ICES</span> </h1> 
+  <br>
+  <p style="font-size:20px;color:white;"><em>Wow, we are glad that you are here! Now we can see the healthy environment our future generations are going to live in! </em> </p> 
+<br> <br> 
+<div class="paragraph"> 
+  <pre style="font-size:15px;">    Check out if there is any beach clean-up near you, and if there is, yay, click the location and check out for other 
+  details,such as time, etc. This could be a best opportunity for you to meet other young super amazing people just like you!</pre> 
+  <br> 
+  <iframe src="https://www.google.com/maps/d/embed?mid=1QjbKMsVd8tu9--wEnDa8v2NGPrftp7A8" width="1000" height="670"></iframe>
+</div> 
+<style>
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+</style>
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Sign Up</h1>
+
+    <label for="username"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="username" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit" class="btn">Sign Up</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+<br>
+<pre style="font-size:20px;font-family:poppins;color:white;">Ready for a clean-up? Yay!!! 
+  All you have to do is just sign up, and we will get in touch with you soon. Can't wait to see you there!</pre> 
+<div class ="signUp">
+  <button id="signup"class="open-form" onclick ="openForm()"> Sign Up</button>
+  </div>
+  <br>
+  <pre style="font-size:20px;font-family:poppins;color:white;"> OR, 
+    <br>
+    Don't see your nearby beach? No problem, if you are interested you can lead the beach-cleanup. 
+    All you have to do is just sign up using the link below and we'll provide you all the sources/info needed and connect with other people who are interested in that particular beach.</pre>
+    <div class ="signUp">
+  <button id="signup"class="open-form" onclick ="openForm()"> Sign Up</button>
+  </div>
+</div>
+</div>
+<!--Community--> 
+<br><br>
+<hr> 
+<br> <br>
+<script src="script.js"></script>
+<div class="com" > 
+    <h1 style="text-align:center;font-family:poppins;color: white; ">RE<span>VIEW </span></h1>
+  </div> 
+    <br>
+    <p style='color:white;padding-left:50px;padding-right:50px;margin-left:350px; margin-right:350px;'class="lineHeight"><b> Still feeling a bit unsure? Don't worry! Look at some of our reviews from other youths just like you!</em>  </p><br>
+    <pre style="text-align:center;color:white;"><i>"Alone, we can do so little; Together we can do so much!"</i></pre>
+    <br><br><br>
+  <div class="container">
+  <img src="image/profile.jpg" alt="James">
+  <p>I just finished cleaning in the Malibu beach...It was amazing! I made new friends too. For high schoolers, this is a great volunteering opportunity! </p>
+  <span class="time-right">11:03</span>
+</div>
+
+<div class="container darker">
+  <img src="image/profile3.jpg" alt="Riya" class="right">
+  <p>Yes. I agree with you, James. I just now finished my clean up Zuma beach. I felt so nice after it. I did this with my friends, so it was like a hangout with my friends as well. I highly encourage to do it with your friends. </p>
+  <span class="time-left">11:37</span>
+</div>
+
+<div class="container">
+  <img src="image/profile.jpg" alt="James">
+  <p>Way to go, Riya. I guess you souund interested in these clean-ups. If so, there are other opportunities coming soon I guess. Can't wait for it. </p>
+  <span class="time-right">12:34</span>
+</div>
+
+<div class="container darker">
+  <img src="image/profile3.jpg" alt="Riya" class="right">
+  <p>Oh yeah, same! Hope we could meet one day.  <br>
+    #beachcleanup #plasticInTheOcean #can'twait #betterfuture #highschoolersrock. 
+  </p>
+  <span class="time-left">1:28</span>
+</div>
+<br> <br> 
+<!--Comment box 
+<div class="message">
+      <h2 style="color:white; "> Join the Community!</h2> 
+        <input id="example" type="text"
+        name="Ntext" size="20">
+        <input id="sent" type="submit" value="Comment"> 
+        
+      </div>
+      -->
+  </div>
+  <br><br> 
+  <hr> 
+  <div class=" section-gap"></div>
+      <div class="wrapper">
+        <h3 class="global-title text-center" style="color:white">CONTACT <span>US</span></h3>
+        <p style="text-align:center;font-family:poppins;color:white;"><em> Still have some questions or need help with anything? No problem, we are there 24/7 to help you in any way we can. Just message us here, and we will get back to you ASAP! </em> </p> 
+        <br><br><br><br>
+        <div class="d-grid contact-view">
+          <div class="cont-details">
+            <div class="cont-top">
+
+              <div class="cont-left text-center">
+                <span class="fa fa-phone text-primary"></span>
+              </div>
+
+              <div class="cont-right">
+                <h6 style="color:#00fecb;">Call Us</h6>
+                <p><a href="#">+111 111 1111</a></p>
+              </div>
+
+            </div>
+
+            <div class="cont-top margin-up">
+
+              <div class="cont-left text-center">
+                <span class="fa fa-envelope-o text-primary"></span>
+              </div>
+              <div class="cont-right">
+                <h6 style="color:#00fecb;">Email Us</h6>
+                <p><a href="mailto:example@mail.com" class="mail">example@gmail.com</a></p>
+              </div>
+              
+            </div>
+
+
+            <div class="cont-top margin-up">
+              <div class="cont-left text-center">
+                <span class="fa fa-map-marker text-primary"></span>
+              </div>
+              <div class="cont-right">
+                <h6 style="color:#00fecb;">Address</h6>
+                <p> 281,Some Road, MA, USA.</p>
+              </div>
+            </div>
+            </div> 
+            <div class="map-content">
+            <form action="#" method="post">
+              <div class="twice-two">
+                <input type="text" class="form-control" name="w3lName" id="w3lName" placeholder="Name" required="">
+                <input type="email" class="form-control" name="w3lSender" id="w3lSender" placeholder="Email"
+                  required="">
+              </div>
+
+              <div class="twice">
+                <input type="text" class="form-control" name="w3lSubject" id="w3lSubject" placeholder="Subject"
+                  required="">
+              </div>
+
+              <textarea name="w3lMessage" class="form-control" id="w3lMessage" placeholder="Message"
+                required=""></textarea>
+              <button type="submit" class="btn btn-contact">Send Message</button>
+            </form>
+          </div>
+          </div>
+          </div>
+          <br><br><br><br><br><br><br>
+          <hr>
+          <div class="footer">
+          <br><br>
+
+          <!--Social media buttons--> 
+          <div class = "social-menu">
+            <h1 style="text-align: center;">Other places to find us!</h1> 
+            <ul> 
+              <li><a href=""><i class="fa fa-facebook"></i></a></li>
+    <li><a href=""><i class="fa fa-twitter"></i></a></li>
+    <li><a href=""><i class="fa fa-instagram"></i></a></li>
+    <li><a href=""><i class="fa fa-youtube"></i></a></li>
+    <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+    </ul> 
+    </div>
+  </body>
+  <script>
+    window.onclick = function(e)
+    {   var id =  e.target.id;   
+     if (id === 'sent')  
+     { var txt = document.getElementById('example').value    
+       $( "#para" ).empty().append( txt );
+     }
+    }
+  </script>
+  <style> 
+  footer{
+  background-color: none;
+}
+.social-menu ul {
+    position: absolute;
+    top: 102%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.social-menu ul li .fa {
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+}
+.social-menu ul li .fa:hover {
+    color: #ffffff;
+}
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #55acee;
+}
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #e4405f;
+}
+.social-menu ul li:nth-child(4) a:hover {
+    background-color: #cd201f;
+}
+.social-menu ul li:nth-child(5) a:hover {
+    background-color: #0077B5;
+}
+  /* Chat containers */
+.container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* Darker chat container */
+.darker {
+  border-color: #ccc;
+  background-color:#FFF0F5;
+}
+
+/* Clear floats */
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Style images */
+.container img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Style the right image */
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+/* Style time text */
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+/* Style time text */
+.time-left {
+  float: left;
+  color: #999;
+}
+  </style> 
+  </body> 
+</html> 
